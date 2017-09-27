@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Administrator.master.cs" Inherits="TheFoodCompany.Administrator" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title></title>
+    <link href="footer.css" rel="stylesheet" /><!--Define the general footer CSS above other CSS-->
+    <link href="Administrator.css" rel="stylesheet" type="text/css" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div>
+			<header>
+				<h2>Administrator</h2>
+			</header>
+
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder>
+
+			<footer>
+				<small>&copy; Copyright 2017, Team Foodies</small>
+			</footer>
+		</div>
+	</form>
+</body>
+</html>

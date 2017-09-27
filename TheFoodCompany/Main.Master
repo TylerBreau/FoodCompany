@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="TheFoodCompany.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="footer.css" rel="stylesheet" /><!--Define the general footer CSS above other CSS-->
+    <link href="Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div>
+            <header>
+                <asp:Image ID="imgLogo" ImageUrl="~/images/logo.png" AlternateText="Company Logo" runat="server" Height="160" Width="335" CssClass="logo" />
+                <asp:TextBox ID="txtSearch" runat="server" CssClass="txtSearch"></asp:TextBox>
+                <asp:Button ID="btnSearch" runat="server" Text="Search" CssClass="btnSearch" />
+            </header>
+
+            <ul>
+                <li><a href="Home.aspx">HOME</a></li>
+                <li><a href="About.aspx">ABOUT</a></li>
+                <li><a href="Cart.aspx">CART</a></li>
+                <li><a href="Contact.aspx">CONTACT</a></li>
+            </ul>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+        </div>
+    </form>
+
+    <footer>
+        <small>&copy; Copyright 2017, Team Foodies</small>
+    </footer>
+</body>
+</html>

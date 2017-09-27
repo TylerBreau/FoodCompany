@@ -1,0 +1,24 @@
+﻿body {
+    /*
+        Define a margin-bottom with the SAME HEIGHT as the FOOTER in order to prevent content from being stuck under the footer.
+        !important ensures that this margin-bottom is not overwritten by a smaller margin.
+    */
+    margin-bottom: 2em !important;
+}
+
+
+footer {
+    padding: 0.25em;
+    background-color: #EEE;
+    text-align: center;
+    width: 100%;
+
+    clear: both; /*Prevents floats from effecting footer*/
+
+    /*Clearly define the footer's height. IMPORTANT : The footer's height must be clearly defined and be the same as the parent's margin-bottom.*/
+    height: 2em;
+
+    /*Keeps the footer at bottom of page.*/
+    position: fixed;
+    bottom: 0;
+}

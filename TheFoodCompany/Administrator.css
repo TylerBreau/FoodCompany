@@ -1,0 +1,17 @@
+﻿body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+	text-align: center;
+	height: 2em;
+	background-color: #EEE;
+}
+
+footer {
+	padding: 0.25em;
+	height: 2em;
+	clear: both;
+	background-color: #EEE;
+	text-align: center;
+}

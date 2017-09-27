@@ -1,0 +1,21 @@
+﻿body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+	float:left;
+	width: 30%;
+	height: 20em;
+	background-color: whitesmoke;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+section {
+	float: left;
+	width: 62%;
+	height: 20em;
+	background-color: whitesmoke;
+	margin: 0.5em;
+	padding: 0.5em;
+}
